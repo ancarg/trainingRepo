@@ -1,4 +1,4 @@
-job('simpleTrigger2'){
+job('simpleTriggerCreatedFromGit'){
   parameters{
   stringParam('Object','Undescribed','Description of this param')
   }
