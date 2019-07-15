@@ -1,10 +1,15 @@
-stage('Git clone'){
+stage('Create file'){
     node('master'){
-        git 'https://github.com/ancarg/trainingRepo.git'
+        sh label: '', script: 'touch NewFile'
+    }
+}
+stage('Write'){
+    node('master'){
+        sh label: '', script: 'echo \'this is a message\' > NewFile'
     }
 }
 stage('Print'){
     node('master'){
-        sh label: '', script: 'cat README.md'
+        sh label: '', script: 'cat NewFile'
     }
 }
