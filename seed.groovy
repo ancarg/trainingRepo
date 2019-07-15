@@ -14,7 +14,7 @@ data2.jobs.each
   {
     println("Create Job $it.repositoryName")
 
-    var (i=1;i<=10;i++){
+    for(i=1;i<=10;i++){
       job("job->$i") {
         steps{
           shell('echo $JOB_NAME')
