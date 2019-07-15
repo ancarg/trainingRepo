@@ -1,0 +1,10 @@
+stage('Git clone'){
+    node('master'){
+        git 'https://github.com/ancarg/trainingRepo.git'
+    }
+}
+stage('Print'){
+    node('master'){
+        sh label: '', script: 'cat README.md'
+    }
+}
