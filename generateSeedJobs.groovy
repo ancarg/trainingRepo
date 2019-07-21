@@ -22,7 +22,7 @@ data2.jobs.each
         label('master')
     steps {
       //shell("echo clone repository $it.repositoryName")
-      shell("echo build module $it.moduleName")
+      shell("echo build module $it.value.moduleName")
       //shell("echo store result in  $it.storeLocation")
       //shell("echo send email notifications to $it.emailingList")
       }
