@@ -24,7 +24,7 @@ data2.jobs.each
       shell('echo clone repository $it.repositoryName')
       shell('echo build module $it.moduleName')
       shell('echo store result in $it.storeLocation')
-      shell('echo send email notifications to $it.emailingList')
+      //shell('echo send email notifications to $it.emailingList')
       }
     }
 
