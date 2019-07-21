@@ -7,15 +7,15 @@
       "emailingList": "test@email.com"
     },
     {
-      "moduleName": "Module1",
-      "repositoryName": "testrepo1",
-      "storeLocation": "storeLocation1",
+      "moduleName": "Module2",
+      "repositoryName": "testrepo2",
+      "storeLocation": "storeLocation2",
       "emailingList": "test@email.com"
     },
     {
-      "moduleName": "Module1",
-      "repositoryName": "testrepo1",
-      "storeLocation": "storeLocation1",
+      "moduleName": "Module3",
+      "repositoryName": "testrepo3",
+      "storeLocation": "storeLocation3",
       "emailingList": "test@email.com"
     }
 ]
