@@ -1,38 +1,22 @@
 {
   "jobs": [
     {
+      "moduleName": "Module1",
       "repositoryName": "testrepo1",
+      "storeLocation": "storeLocation1",
       "emailingList": "test@email.com"
     },
-        {
-      "repositoryName": "testrepo2",
+    {
+      "moduleName": "Module1",
+      "repositoryName": "testrepo1",
+      "storeLocation": "storeLocation1",
       "emailingList": "test@email.com"
     },
-        {
-      "repositoryName": "testrepo3",
-      "emailingList": "test@email.com"
-    },
-        {
-      "repositoryName": "testrepo4",
-      "emailingList": "test@email.com"
-    },
-        {
-      "repositoryName": "testrepo6",
-      "emailingList": "test@email.com"
-    },
-            {
-      "repositoryName": "testrepo31",
-      "emailingList": "test@email.com"
-    },
-        {
-      "repositoryName": "testrepo42",
-      "emailingList": "test@email.com"
-    },
-        {
-      "repositoryName": "testrepo64",
+    {
+      "moduleName": "Module1",
+      "repositoryName": "testrepo1",
+      "storeLocation": "storeLocation1",
       "emailingList": "test@email.com"
     }
-    
-    
 ]
 }
