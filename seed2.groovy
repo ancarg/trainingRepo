@@ -1,22 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@ancarg 
-0
-0 15 SeritAndrei/GitSecondRepo
-forked from jenkinsonlinetest/GitSecondRepo
- Code  Pull requests 0  Projects 0  Wiki  Security  Insights
-GitSecondRepo/seed.groovy
-@onlinedevopstrainings onlinedevopstrainings Update seed.groovy
-190dc4d on Feb 8
-47 lines (40 sloc)  1.35 KB
-    
 import groovy.json.JsonSlurper
 import groovy.json.*
 import groovy.json.JsonSlurper
