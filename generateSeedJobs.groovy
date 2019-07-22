@@ -20,7 +20,7 @@ data2.jobs.each
   
         logRotator(5, 100, -1, -1)
         label('master')
-    steps 
+      steps {
       sh "echo $it.repositoryName"
       sh "echo \$it.repositoryName"
       //shell("echo clone repository $it.repositoryName")
