@@ -8,7 +8,7 @@ steps {
  }
   publishers{
     downstream{
-      trigger(testEmail', 'SUCCESS')
+      trigger('testEmail', 'SUCCESS')
     }
   }
 }
