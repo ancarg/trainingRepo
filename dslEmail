@@ -8,7 +8,8 @@ steps {
  }
   publishers{
     downstream{
-      trigger('ar_testEmail')
+      trigger('ar_testEmail'){
+      }
     }
   }
 }
