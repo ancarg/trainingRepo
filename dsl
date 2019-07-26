@@ -1,10 +1,10 @@
 job('simpleTriggerCreatedFromGit'){
   parameters{
-  stringParam('Object','Undescribed','Description of this param')
+  stringParam('Module','Module1','Description of this param')
   }
 steps {
   shell('echo $JOB_NAME - $BUILD_NUMBER')
-  shell('echo $Object')
+  shell('echo $Module')
  }
   publishers{
     downstream('testEmail', 'SUCCESS')
