@@ -7,6 +7,6 @@ steps {
   shell('echo $Module')
  }
   publishers{
-    downstream('test1', 'SUCCESS')
+    downstream('testA', 'SUCCESS')
   }
 }
