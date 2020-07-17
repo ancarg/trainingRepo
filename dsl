@@ -7,6 +7,6 @@ steps {
   shell('echo $Object')
  }
   publishers{
-    downstream('testB', 'SUCCESS')
+    downstream('test1', 'SUCCESS')
   }
 }
