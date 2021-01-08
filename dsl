@@ -7,6 +7,6 @@ steps {
   shell('echo $Object')
  }
   publishers{
-    downstream('testJob', 'SUCCESS')
+    downstream('envVar', 'SUCCESS')
   }
 }
