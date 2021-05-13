@@ -13,3 +13,9 @@ stage('Print'){
         sh label: '', script: 'cat NewFile'
     }
 }
+
+stage('Display message'){
+    node('master'){
+        sh label: '', script: 'echo \'pipeline finished - notify responsibles\'
+    }
+}
