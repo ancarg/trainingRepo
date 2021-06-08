@@ -16,6 +16,6 @@ stage('Print'){
 
 stage('Display message'){
     node('master'){
-        sh label: '', script: 'echo \'pipeline finished - notify responsibles\'
+        sh label: '', script: 'echo \'pipeline finished - notify responsibles\' '
     }
 }
